@@ -1,0 +1,174 @@
+@import url("reset.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100%;
+  height: 45px;
+  background: #3d8ee0;
+  padding: 3px 8px 18px;
+  box-sizing: border-box;
+}
+header .h-tit {
+  width: 100%;
+  height: 35px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 7px 3px;
+  box-sizing: border-box;
+}
+header .h-tit input {
+  display: block;
+  border: none;
+  -webkit-box-flex: 1;
+  outline: none;
+  padding-left: 5px;
+}
+header .h-tit img {
+  width: 16px;
+  height: auto;
+  background: none;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+section::-webkit-scrollbar {
+  width: 0;
+}
+section .main-nav {
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 40px;
+  background: #f5f5f5;
+  line-height: 40px;
+}
+section .main-nav .swiper-container {
+  -webkit-box-flex: 1;
+}
+section .main-nav .main-nav-img img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.Boxsection > div {
+  display: none;
+}
+section .main-text {
+  padding: 10px;
+  box-sizing: border-box;
+}
+section .main-text ul {
+  padding-top: 5px;
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .main-text ul li {
+  -webkit-box-flex: 1;
+}
+section .main-text ul li img {
+  width: 90px;
+  height: auto;
+  background: none;
+}
+section .main-text .main-text-p {
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+section .main-text .main-text-p p {
+  margin: 0 5px;
+}
+section .main-text .main-text-p p:nth-child(3) {
+  width: 20px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid red;
+  color: red;
+}
+section .main-text .main-text-p .Pbtn {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}
+section .main-text-biao {
+  padding: 5px 10px;
+}
+section .main-text-lun-img {
+  padding: 3px 10px;
+}
+section .main-text-lun-img img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+section .main-text-p {
+  padding: 5px 8px 10px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+section .main-text-p p {
+  margin: 0 5px;
+}
+section .main-text-p p:nth-child(3) {
+  width: 20px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid red;
+  color: red;
+}
+section .main-text-p .Pbtn {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}
+footer {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+}
+footer .f-dl {
+  padding-top: 4px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+footer .f-dl dl {
+  -webkit-box-flex: 1;
+}
+footer .f-dl dl dt img {
+  width: 22px;
+  height: auto;
+  background: none;
+}
+footer .f-dl dl dd {
+  color: #adadad;
+}
+footer .f-dl .dl-on dd {
+  color: dodgerblue;
+}
